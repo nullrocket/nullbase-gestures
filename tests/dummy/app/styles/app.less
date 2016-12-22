@@ -1,0 +1,29 @@
+.event-info-panel {
+  position: absolute;
+  left: 0px;
+  width: 300px;
+  height: auto;
+  border: 1px solid silver;
+  #key-value-pairs {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    li {
+      padding: 4px;
+      line-height: 32px;
+      vertical-align: center;
+      span:first-of-type {
+        display: inline-block;
+        width: 50%;
+      }
+      span {
+        width: 50%;
+        display: inline-block;
+      }
+    }
+
+    li:nth-of-type(odd) {
+      background: silver;
+    }
+  }
+}
