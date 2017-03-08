@@ -15,6 +15,7 @@ import track from './gestures/track';
 import hold from './gestures/hold';
 import tap from './gestures/tap';
 import pinch from './gestures/pinch';
+import finger from './gestures/finger';
 
 Ember.EventDispatcher.reopen({
   setup: function () {
@@ -43,7 +44,7 @@ Ember.EventDispatcher.reopen({
  * subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
  */
 
-console.log('building Gestures');
+
 
 
 
