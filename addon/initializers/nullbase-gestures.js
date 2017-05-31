@@ -29,8 +29,7 @@ Ember.EventDispatcher.reopen({
     this.set('events', events);
 
     return this._super(Array.prototype.slice.call(arguments));
-  },
-  canDispatchToEventManager: false
+  }
 });
 
 
